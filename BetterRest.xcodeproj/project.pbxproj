@@ -11,6 +11,7 @@
 		8BC12BD72A7154DE00A5EBCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC12BD62A7154DE00A5EBCE /* ContentView.swift */; };
 		8BC12BD92A7154DF00A5EBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC12BD82A7154DF00A5EBCE /* Assets.xcassets */; };
 		8BC12BDC2A7154DF00A5EBCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC12BDB2A7154DF00A5EBCE /* Preview Assets.xcassets */; };
+		8BC12BE32A71B97E00A5EBCE /* BetterRestML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BC12BE22A71B97E00A5EBCE /* BetterRestML.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8BC12BD62A7154DE00A5EBCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BC12BD82A7154DF00A5EBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC12BDB2A7154DF00A5EBCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BC12BE22A71B97E00A5EBCE /* BetterRestML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BetterRestML.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8BC12BD32A7154DE00A5EBCE /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				8BC12BE22A71B97E00A5EBCE /* BetterRestML.mlmodel */,
 				8BC12BD42A7154DE00A5EBCE /* BetterRestApp.swift */,
 				8BC12BD62A7154DE00A5EBCE /* ContentView.swift */,
 				8BC12BD82A7154DF00A5EBCE /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				8BC12BD72A7154DE00A5EBCE /* ContentView.swift in Sources */,
 				8BC12BD52A7154DE00A5EBCE /* BetterRestApp.swift in Sources */,
+				8BC12BE32A71B97E00A5EBCE /* BetterRestML.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
